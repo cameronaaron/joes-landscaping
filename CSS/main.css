@@ -74,6 +74,11 @@ h2.section-heading{
     padding: 16px 32px;
 }
 
+.services-btn {
+    background-color: #499F68;
+    color: #fff;
+}
+
 
 /* MODAL */
 .modal-header, .modal-footer {
