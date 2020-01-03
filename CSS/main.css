@@ -2,6 +2,7 @@ html, body {
     height: 100%;
 }
 
+/* HERO CONTAINER */
 #hero-image-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/hero.jpg);
     background-size: cover;
@@ -10,6 +11,7 @@ html, body {
     height: 100vh;
 }
 
+/* NAVBAR */
 .navbar-brand {
     font-size: 2rem;
 }
@@ -18,21 +20,30 @@ html, body {
     color: #A9DBB8;
 }
 
+/* HERO TEXT */
 #hero-text-container {
     height: 70vh;
 }
 
-h2.section-heading{
-    color: #499F68;
+/* SECTION HEADING CONTAINER */
+.section-heading-container {
+    background-color: #499F68;
 }
 
+/* SECTION HEADING */
+h2.section-heading{
+    color: #fff;
+}
+
+/* SCHEDULE BUTTON */
 #schedule-btn {
     background-color: #157A6E;
     border-color: #157A6E;
 }
 
+/*  SERVICES SECTION */
+
 .image{
-    margin-bottom: 1em;
     opacity: 1;
     transition: .8s ease;
     backface-visibility: hidden;
@@ -63,6 +74,8 @@ h2.section-heading{
     padding: 16px 32px;
 }
 
+
+/* MODAL */
 .modal-header, .modal-footer {
     background-color: #A9DBB8;
 }
@@ -71,4 +84,28 @@ h2.section-heading{
     background-color: #D3D0CB;
     color: #393E41;
     border-color: #393E41;
+}
+
+/* DARK OVERLAY FOR CAROUSEL IMAGES */
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.2);
+}
+
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+     position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
 }
