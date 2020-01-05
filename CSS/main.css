@@ -4,7 +4,7 @@ html, body {
 
 /* HERO CONTAINER */
 #hero-image-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("/images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -129,7 +129,7 @@ h2.section-heading{
 
 /* CONTACT US SECTION - BACKGROUND */
 .contact-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/contact-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/contact-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
